@@ -119,7 +119,7 @@
 #define NL_WATER_WAVE_SPEED  0.8  // 0.2 calm ~ 2.0 turbulent
 #define NL_WATER_TEX_OPACITY 0.3  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
-//#define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
+#define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
 
 /* Underwater */
@@ -177,7 +177,7 @@
 #define NL_AURORA_COL1 vec3(0.1,1.0,0.0)
 #define NL_AURORA_COL2 vec3(0.1,0.0,1.0)
 
-#define NL_CLOUD_AURORA_REFLECTION // [toggle] simple clouds/aurora reflection
+//#define NL_CLOUD_AURORA_REFLECTION // [toggle] simple clouds/aurora reflection
 
 /* Shooting star */
 #define NL_SHOOTING_STAR 1.0        // [toggle] 0.2 dim ~ 1.0 bright
@@ -196,10 +196,10 @@
 /* Sun/Moon */
 #define NL_SUN_SIZE  1.0           // 0.3 tiny ~ 4.0 massive
 #define NL_MOON_SIZE 1.0           // 0.3 tiny ~ 4.0 massive
-#define NL_SUN_SIZE_DAWN  1.6      // 0.3 tiny ~ 4.0 massive - sun size near dawn horizon
-#define NL_SUN_SIZE_DUSK  1.6      // 0.3 tiny ~ 4.0 massive - sun size near dusk horizon
-#define NL_MOON_SIZE_DAWN 1.3      // 0.3 tiny ~ 4.0 massive - moon size near dawn horizon
-#define NL_MOON_SIZE_DUSK 1.3      // 0.3 tiny ~ 4.0 massive - moon size near dusk horizon
+#define NL_SUN_SIZE_DAWN  4.0      // 0.3 tiny ~ 4.0 massive - sun size near dawn horizon
+#define NL_SUN_SIZE_DUSK  4.0      // 0.3 tiny ~ 4.0 massive - sun size near dusk horizon
+#define NL_MOON_SIZE_DAWN 3.0      // 0.3 tiny ~ 4.0 massive - moon size near dawn horizon
+#define NL_MOON_SIZE_DUSK 3.0      // 0.3 tiny ~ 4.0 massive - moon size near dusk horizon
 #define NL_SUN_PATH_YAW    15.0 //
 #define NL_MOON_PATH_YAW   17.0 //
 #define NL_SUN_PATH_TILT   31.0 //
@@ -212,10 +212,10 @@
 #define NL_MOON_TILT_DUSK  45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees - moon disc rotation near dusk horizon
 
 /* Fake godrays during sunrise/sunset */
-//#define NL_GODRAY 0.3 // [toggle] 0.1 subtle ~ 0.8 strong
+#define NL_GODRAY 0.3 // [toggle] 0.1 subtle ~ 0.8 strong
 
 /* Sky reflection */
-//#define NL_GROUND_REFL 0.4       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky
+#define NL_GROUND_REFL 0.2       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky
 #define NL_GROUND_RAIN_WETNESS 1.0 // 0.0 no wetness ~ 1.0 fully wet blocks when raining
 #define NL_GROUND_RAIN_PUDDLES 0.7 // 0.0 no puddles ~ 1.0 puddles
 
