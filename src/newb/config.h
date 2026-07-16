@@ -89,12 +89,6 @@
 /* End cubemap scene - your uploaded image, wrapped as a full skybox */
 #define NL_END_SKY_ROTATION 0.0 // 0.0 ~ 1.0 (full turn) - rotate the image to line up with where you want it facing
 
-/* End sky fake bloom - glow around bright parts of the cubemap (eg. black hole ring) */
-#define NL_END_BLOOM_INTENSITY 1.4  // 0.0 off ~ 3.0 very glowy
-#define NL_END_BLOOM_THRESHOLD 0.6  // 0.0 everything glows ~ 1.0 only very bright spots glow
-#define NL_END_BLOOM_RADIUS    0.012 // 0.004 tight glow ~ 0.03 wide glow
-
-
 /* Rainbow */
 #define NL_RAINBOW           // [toggle] enable rainbow in sky
 #define NL_RAINBOW_CLEAR 0.0 // 0.3 subtle ~ 1.0 bright during clear weather
@@ -116,14 +110,14 @@
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.9 // 0.0 transparent ~ 1.0 normal
 #define NL_WATER_BUMP 0.09        // 0.001 plain ~ 0.2 bumpy water
-#define NL_WATER_WAVE_SPEED  0.8  // 0.2 calm ~ 2.0 turbulent
+#define NL_WATER_WAVE_SPEED  0.6  // 0.2 calm ~ 2.0 turbulent
 #define NL_WATER_TEX_OPACITY 0.3  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
 
 /* Underwater */
-#define NL_UNDERWATER_BRIGHTNESS 0.8         // 0.0 dark ~ 3.0 bright
+#define NL_UNDERWATER_BRIGHTNESS 0.6         // 0.0 dark ~ 3.0 bright
 #define NL_CAUSTIC_INTENSITY 1.9             // 0.5 weak ~ 5.0 bright
 #define NL_UNDERWATER_WAVE 0.1               // [toggle] 0.02 subtle ~ 0.6 trippy
 #define NL_UNDERWATER_STREAKS 1.0            // [toggle] 0.8 subtle - 2.0 bright streaks from top
