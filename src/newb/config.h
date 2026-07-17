@@ -46,7 +46,7 @@
 
 /* Ambient light for nether/end */
 #define NL_NETHER_AMBIENT vec3(3.0,2.16,1.89)
-#define NL_END_AMBIENT    vec3(2.2,2.2,2.2)
+#define NL_END_AMBIENT    vec3(0.8,0.8,0.8)
 
 /* Sun/moon light color */
 #define NL_DAWN_SUNLIGHT_COL   vec3(1.0,0.4,0.1)
@@ -71,9 +71,9 @@
 #define NL_SKY_RAIN_MIX_FACTOR 0.9
 
 /* Sky colors - zenith=top, horizon=bottom */
-#define NL_DAWN_ZENITH_COL   vec3(0.1,0.4,0.7)
-#define NL_DAWN_HORIZON_COL  vec3(3.0,0.4,0.4)
-#define NL_DAWN_EDGE_COL     vec3(2.0,0.8,0.8)
+#define NL_DAWN_ZENITH_COL   vec3(1.0,0.60,0.0)
+#define NL_DAWN_HORIZON_COL  vec3(1.0,0.60,0.0)
+#define NL_DAWN_EDGE_COL     vec3(1.0,0.60,0.0)
 #define NL_DAY_ZENITH_COL    vec3(0.3,0.9,2.0)
 #define NL_DAY_HORIZON_COL   vec3(1.0,1.6,1.8)
 #define NL_DAY_EDGE_COL      vec3(1.44,1.56,1.62)
@@ -110,17 +110,17 @@
 // Bedrock has no thunderstorm signal separate from rain intensity (env.rainFactor 0-1 only).
 // The THUNDER values below are used as a top-end tier that fades in only once rainFactor
 // gets close to max, so they will also apply during very heavy plain rain, not just thunder.
-#define NL_PLANTS_WAVE_SPEED_RAIN    3.6  // plant wave speed during light-moderate rain
-#define NL_PLANTS_WAVE_SPEED_THUNDER 5.5  // plant wave speed once rain intensity nears max
-#define NL_LEAF_WAVE_SPEED_RAIN      3.2  // tree leaf wave speed during light-moderate rain
-#define NL_LEAF_WAVE_SPEED_THUNDER   5.0  // tree leaf wave speed once rain intensity nears max
+#define NL_PLANTS_WAVE_SPEED_RAIN    1.6  // plant wave speed during light-moderate rain
+#define NL_PLANTS_WAVE_SPEED_THUNDER 2.5  // plant wave speed once rain intensity nears max
+#define NL_LEAF_WAVE_SPEED_RAIN      1.6  // tree leaf wave speed during light-moderate rain
+#define NL_LEAF_WAVE_SPEED_THUNDER   2.5  // tree leaf wave speed once rain intensity nears max
 
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.6 // 0.0 transparent ~ 1.0 normal
 #define NL_WATER_BUMP 0.09        // 0.001 plain ~ 0.2 bumpy water
 #define NL_WATER_WAVE_SPEED  0.6  // 0.2 calm ~ 2.0 turbulent
 #define NL_WATER_WAVE_SPEED_RAIN    1.4  // water wave speed during light-moderate rain
-#define NL_WATER_WAVE_SPEED_THUNDER 2.4  // water wave speed once rain intensity nears max
+#define NL_WATER_WAVE_SPEED_THUNDER 1.9  // water wave speed once rain intensity nears max
 #define NL_WATER_TEX_OPACITY 0.3  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
@@ -189,10 +189,10 @@
 #define NL_SHOOTING_STAR_DELAY 14.0 // 0.0 no delay ~ 100.0 long time (100 secs)
 
 /* Galaxy */
-//#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
-#define NL_GALAXY_VIBRANCE 0.7          // 0.0 white - 1.0 colorful
+#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
+#define NL_GALAXY_VIBRANCE 0.4          // 0.0 white - 1.0 colorful
 #define NL_GALAXY_SPEED 0.03            // 0.01 slow motion - 0.2 fast motion
-#define NL_GALAXY_DAY_VISIBILITY 0.0    // 0.0 invisible - 1.0 visible
+#define NL_GALAXY_DAY_VISIBILITY 0.01    // 0.0 invisible - 1.0 visible
 #define NL_GALAXY_COLOR  vec3(0.25,1.4,0.9) // aurora green layer
 #define NL_GALAXY_COLOR2 vec3(1.3,0.3,1.6)  // aurora purple layer
 
