@@ -71,7 +71,7 @@
 #define NL_SKY_RAIN_MIX_FACTOR 0.9
 
 /* Sky colors - zenith=top, horizon=bottom */
-#define NL_DAWN_ZENITH_COL   vec3(1.0,0.60,0.0)
+#define NL_DAWN_ZENITH_COL   vec3(1.0,0.302,0.0)
 #define NL_DAWN_HORIZON_COL  vec3(1.0,0.60,0.0)
 #define NL_DAWN_EDGE_COL     vec3(1.0,0.60,0.0)
 #define NL_DAY_ZENITH_COL    vec3(0.3,0.9,2.0)
@@ -189,8 +189,8 @@
 #define NL_SHOOTING_STAR_DELAY 14.0 // 0.0 no delay ~ 100.0 long time (100 secs)
 
 /* Galaxy */
-//#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
-//#define NL_GALAXY_STARS_LAYER         // [toggle] star points sub-layer (noise-heavy, costliest part)
+#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
+#define NL_GALAXY_STARS_LAYER         // [toggle] star points sub-layer (noise-heavy, costliest part)
 #define NL_GALAXY_GLOW_LAYER          // [toggle] soft aurora glow/haze sub-layer (cheap)
 #define NL_GALAXY_VIBRANCE 0.4          // 0.0 white - 1.0 colorful
 #define NL_GALAXY_SPEED 0.03            // 0.01 slow motion - 0.2 fast motion
@@ -237,7 +237,7 @@
 #define NL_WEATHER_PARTICLE_SIZE 1.0 // 0.5 tiny ~ 4.0 large
 
 /* Lava effects */
-#define NL_LAVA_NOISE            // [toggle] darken lava in certain regions
+//#define NL_LAVA_NOISE            // [toggle] darken lava in certain regions
 //#define NL_LAVA_NOISE_BUMP 0.2 // [toggle] 0.1 subtle ~ 0.8 massive waves
 #define NL_LAVA_NOISE_SPEED 0.2  // 0.0 still ~ 0.8 fast
 
