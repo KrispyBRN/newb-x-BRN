@@ -190,7 +190,7 @@
 
 /* Galaxy */
 #define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
-#define NL_GALAXY_STARS_LAYER         // [toggle] star points sub-layer (noise-heavy, costliest part)
+//#define NL_GALAXY_STARS_LAYER         // [toggle] star points sub-layer (noise-heavy, costliest part)
 #define NL_GALAXY_GLOW_LAYER          // [toggle] soft aurora glow/haze sub-layer (cheap)
 #define NL_GALAXY_VIBRANCE 0.4          // 0.0 white - 1.0 colorful
 #define NL_GALAXY_SPEED 0.03            // 0.01 slow motion - 0.2 fast motion
