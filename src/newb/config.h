@@ -198,12 +198,12 @@
 #define NL_SKY_AURORA_COLOR  vec3(0.25,1.4,0.9) // aurora green layer
 #define NL_SKY_AURORA_COLOR2 vec3(1.3,0.3,1.6)  // aurora purple layer
 
-//#define NL_DEBUG_MILKYWAY_TEST_DONE // superseded by NL_MILKYWAY below - buffer/JSON sampler method confirmed working in-game
+//#define NL_DEBUG_MILKYWAY_TEST_DONE // 
 
 #define NL_MILKYWAY 1.0                // [toggle] 0.0 off - brightness multiplier for the milky way band
 #define NL_MILKYWAY_ROTATION 0.0       // [tune] degrees - nudge until the band lines up with real south in-game
 #define NL_MILKYWAY_WIDTH 45.0         // [tune] degrees - horizontal angular window it's visible in (smaller = less stretched/blurry)
-#define NL_MILKYWAY_ELEVATION 35.0     // [tune] degrees above horizon where the band is centered
+#define NL_MILKYWAY_ELEVATION 10.0     // [tune] degrees above horizon where the band is centered
 #define NL_MILKYWAY_HEIGHT 50.0        // [tune] degrees - vertical angular window (smaller = less stretched/blurry)
 
 /* Chunk loading slide in animation */
