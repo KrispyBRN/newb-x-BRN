@@ -198,7 +198,7 @@
 #define NL_SKY_AURORA_COLOR  vec3(0.25,1.4,0.9) // aurora green layer
 #define NL_SKY_AURORA_COLOR2 vec3(1.3,0.3,1.6)  // aurora purple layer
 
-//#define NL_DEBUG_MILKYWAY_TEST // [temporary test] uncomment to check if the Sky/buffers/milkyWayTex.json custom sampler actually works - paints the milky way texture across the whole sky dome if it does, black/pink error texture or build failure if it doesn't
+#define NL_DEBUG_MILKYWAY_TEST // [temporary test] uncomment to check if the Sky/buffers/milkyWayTex.json custom sampler actually works - paints the milky way texture across the whole sky dome if it does, black/pink error texture or build failure if it doesn't
 
 /* Chunk loading slide in animation */
 //#define NL_CHUNK_LOAD_ANIM 100.0 // [toggle] -600.0 fall from top ~ 600.0 rise from bottom
