@@ -1,0 +1,15 @@
+{
+  "name": "AuroraNoiseTex",
+  "reg1": 11,
+  "reg2": 11,
+  "type": "texture2D",
+  "precision": "lowp",
+  "access": "readonly",
+  "texture_format": "",
+  "default_texture": "",
+  "unordered_access": false,
+  "always_one": 1,
+  "texture_path": "textures/environment/aurora_noise",
+  "sampler_state": {},
+  "custom_type_info": {}
+}
