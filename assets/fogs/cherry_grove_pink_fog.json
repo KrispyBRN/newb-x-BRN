@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "newb:fog_cherry_grove_pink"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.4,
+        "fog_end": 1.0,
+        "fog_color": "#FFB3D9",
+        "render_distance_type": "render"
+      }
+    }
+  }
+}
