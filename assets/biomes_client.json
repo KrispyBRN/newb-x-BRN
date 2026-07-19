@@ -11,6 +11,9 @@
     },
     "the_end": {
       "fog_identifier": "newb:fog_the_end"
+    },
+    "cherry_grove": {
+      "fog_identifier": "newb:fog_cherry_grove_pink"
     }
   }
 }
