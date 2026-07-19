@@ -110,9 +110,6 @@
 //#define NL_EXTRA_PLANTS_WAVE // [toggle] !dont use! wave using texture coords (1.21.0 vanilla 2048x1024)
 #define NL_WAVE_RANGE 13.0     // 6.0 upto 6 blocks ~ 32.0 upto 32 blocks away (slower)
 
-// Bedrock has no thunderstorm signal separate from rain intensity (env.rainFactor 0-1 only).
-// The THUNDER values below are used as a top-end tier that fades in only once rainFactor
-// gets close to max, so they will also apply during very heavy plain rain, not just thunder.
 #define NL_PLANTS_WAVE_SPEED_RAIN    1.6  // plant wave speed during light-moderate rain
 #define NL_PLANTS_WAVE_SPEED_THUNDER 2.5  // plant wave speed once rain intensity nears max
 #define NL_LEAF_WAVE_SPEED_RAIN      1.6  // tree leaf wave speed during light-moderate rain
@@ -208,7 +205,7 @@
 
 //#define NL_DEBUG_MILKYWAY_TEST_DONE // superseded by NL_MILKYWAY below - buffer/JSON sampler method confirmed working in-game
 
-#define NL_MILKYWAY 1.0                // [toggle] 0.0 off - brightness multiplier for the milky way band
+//#define NL_MILKYWAY 1.0                // [toggle] 0.0 off - brightness multiplier for the milky way band
 #define NL_MILKYWAY_ROTATION 0.0       // [tune] degrees - nudge until the band lines up with real south in-game
 #define NL_MILKYWAY_WIDTH 30.0         // [tune] degrees - horizontal angular window it's visible in (smaller = less stretched/blurry)
 #define NL_MILKYWAY_ELEVATION 0.0     // [tune] degrees above horizon where the band is centered
