@@ -10,6 +10,8 @@
   "unordered_access": false,
   "always_one": 1,
   "texture_path": "textures/environment/aurora_noise",
-  "sampler_state": {},
+  "sampler_state": {
+    "wrapping": "Repeat"
+  },
   "custom_type_info": {}
 }
