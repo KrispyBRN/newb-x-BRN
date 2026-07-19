@@ -195,7 +195,7 @@
 #define NL_SKY_AURORA_COLOR  vec3(0.25,1.4,0.9) // aurora green layer
 #define NL_SKY_AURORA_COLOR2 vec3(1.3,0.3,1.6)  // aurora purple layer
 
-#define NL_SKY_AURORA_3D                       // [toggle] comment out to fall back to the old pure-sine aurora
+//#define NL_SKY_AURORA_3D                       // [toggle] comment out to fall back to the old pure-sine aurora
 #define NL_SKY_AURORA_3D_SAMPLES 6              // [tune] PERF-SENSITIVE - each sample = 3 texture reads. Start low, raise only if fps holds up (galaxy stars lost ~18fps from 1 noise call)
 #define NL_SKY_AURORA_3D_SPEED 10.0             // [tune] how fast the aurora drifts across the sky
 #define NL_SKY_AURORA_3D_DETAIL_ANIMATE 0.0     // [tune] the found shader had this at 0 (static detail layers) - try a small nonzero value like 0.02 for extra shimmer
@@ -203,7 +203,7 @@
 #define NL_SKY_AURORA_3D_COLOR_A vec3(0.65, 0.48, 1.05)  // [tune] color at the near/base layers
 #define NL_SKY_AURORA_3D_COLOR_B vec3(0.0, 4.5, 3.0)     // [tune] color at the far/deep layers
 
-//#define NL_DEBUG_AURORATEX_TEST // [temporary test] uncomment to check if s_AuroraNoiseTex is actually bound to real data - paints raw noise across the sky if it works, flat black/garbage if the sampler isn't binding
+#define NL_DEBUG_AURORATEX_TEST // [temporary test] uncomment to check if s_AuroraNoiseTex is actually bound to real data - paints raw noise across the sky if it works, flat black/garbage if the sampler isn't binding
 
 //#define NL_DEBUG_MILKYWAY_TEST_DONE // superseded by NL_MILKYWAY below - buffer/JSON sampler method confirmed working in-game
 
