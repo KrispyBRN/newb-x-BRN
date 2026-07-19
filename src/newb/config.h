@@ -210,9 +210,9 @@
 
 #define NL_MILKYWAY 1.0                // [toggle] 0.0 off - brightness multiplier for the milky way band
 #define NL_MILKYWAY_ROTATION 0.0       // [tune] degrees - nudge until the band lines up with real south in-game
-#define NL_MILKYWAY_WIDTH 45.0         // [tune] degrees - horizontal angular window it's visible in (smaller = less stretched/blurry)
-#define NL_MILKYWAY_ELEVATION 15.0     // [tune] degrees above horizon where the band is centered
-#define NL_MILKYWAY_HEIGHT 50.0        // [tune] degrees - vertical angular window (smaller = less stretched/blurry)
+#define NL_MILKYWAY_WIDTH 30.0         // [tune] degrees - horizontal angular window it's visible in (smaller = less stretched/blurry)
+#define NL_MILKYWAY_ELEVATION 0.0     // [tune] degrees above horizon where the band is centered
+#define NL_MILKYWAY_HEIGHT 45.0        // [tune] degrees - vertical angular window (smaller = less stretched/blurry)
 
 /* Chunk loading slide in animation */
 //#define NL_CHUNK_LOAD_ANIM 100.0 // [toggle] -600.0 fall from top ~ 600.0 rise from bottom
