@@ -247,7 +247,7 @@
 #define NL_UNDERWATER_GODRAY_SPEED 0.15 // independent of NL_WATER_WAVE_SPEED - keep low or it'll look locked to the waves
 
 /* Sky reflection */
-#define NL_GROUND_REFL 0.2       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky
+#define NL_GROUND_REFL 0.5       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky
 #define NL_GROUND_RAIN_WETNESS 1.0 // 0.0 no wetness ~ 1.0 fully wet blocks when raining
 #define NL_GROUND_RAIN_PUDDLES 0.7 // 0.0 no puddles ~ 1.0 puddles
 
