@@ -28,7 +28,7 @@
 */
 
 /* Color correction */
-#define NL_TONEMAP_TYPE 3              // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
+#define NL_TONEMAP_TYPE 4              // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
 #define NL_GAMMA 1.33                  // 0.3 low ~ 2.0 high
 //#define NL_EXPOSURE 1.3              // [toggle] 0.5 dark ~ 3.0 bright
 //#define NL_SATURATION 1.4            // [toggle] 0.0 grayscale ~ 4.0 super saturated
@@ -74,7 +74,6 @@
 #define NL_SKY_RAIN_MIX_FACTOR 0.9
 
 /* Sky colors - zenith=top, horizon=bottom */
-/* dawn = sunrise (pink), dusk = sunset (orange) - split via env.horizonSign */
 #define NL_DAWN_ZENITH_COL   vec3(0.18,0.13,0.30)
 #define NL_DAWN_HORIZON_COL  vec3(0.95,0.55,0.65)
 #define NL_DAWN_EDGE_COL     vec3(0.90,0.40,0.55)
@@ -240,7 +239,7 @@
 
 /* Fake godrays during sunrise/sunset */
 #define NL_GODRAY 0.5 // [toggle] 0.1 subtle ~ 0.8 strong
-//#define NL_CANOPY_GODRAY 0.5 // [toggle] comment out to disable - dappled light approximation under leaf canopy, gated by partial skylight rather than a real occlusion test
+#define NL_CANOPY_GODRAY 0.5 // [toggle] comment out to disable - dappled light approximation under leaf canopy, gated by partial skylight rather than a real occlusion test
 #define NL_CANOPY_GODRAY_SPEED 0.2 // independent of NL_WATER_WAVE_SPEED and NL_UNDERWATER_GODRAY_SPEED
 
 #define NL_UNDERWATER_GODRAY 0.6 // [toggle] 0.0 off - sun-shaft light rays underwater, angled toward the real sun direction
